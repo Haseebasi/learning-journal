@@ -144,6 +144,9 @@ padding-right:1.875em;}
 
 
 @media (min-width:600px){
+    p{
+        line-height: 1.2;
+    }
     @media (min-width: 600px){
         .hero p{
             max-width:90%;
