@@ -1,0 +1,58 @@
+*,*::after, *::before {
+    box-sizing: border-box;
+}
+html, 
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+p{
+    font-size: 1rem;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav{
+    top:0;
+    left:0;
+    padding:.625em;
+    background-color:#fafcff;
+    padding-top: .9em;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+}
+.icon{
+
+    width:35px;
+    padding-right:.625em;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    font-size:1rem;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .5em;
+    font-size:1rem;
+    padding-right: 1em;
+}
+.nav-links a{
+    text-decoration:none;
+    color:black;
+
+}
+.nav-links a,.nav-links p{
+    margin:0;
+}
